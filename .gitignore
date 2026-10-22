@@ -1,0 +1,15 @@
+# Carpetas de compilación
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Configuración de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
