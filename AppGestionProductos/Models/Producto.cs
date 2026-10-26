@@ -11,5 +11,10 @@ namespace AppGestionProductos.Models
         public decimal Precio { get; set; }
         public string Categoria { get; set; }
         public bool Activo { get; set; }
+
+        public override string ToString()
+        {
+            return $"Id: {Id} | Nombre: {Nombre} | Precio: {Precio} | Categoria: {Categoria} | Activo: {Activo}";
+        }
     }
-}
+} 

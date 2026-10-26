@@ -25,7 +25,9 @@ namespace AppGestionProductos.Repositories
             {
                 throw new ArgumentException($"Ya existe un producto con el Id {producto.Id}. No se agregó.");
             }
+
             _productos.Add(producto);
+            Console.WriteLine($"Producto agregado correctamente.");
         }
 
         public List<Producto> BuscarPorCategoria(string categoria)
